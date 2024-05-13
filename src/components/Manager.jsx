@@ -112,7 +112,7 @@ const Manager = () => {
 
 
         if (profile) {
-            let req = await fetch("https://pass-keeper-six.vercel.app//getUserDataDemo", {
+            let req = await fetch("https://pass-keeper-six.vercel.app/getUserDataDemo", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
