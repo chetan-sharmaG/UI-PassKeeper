@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    emptyOutDir: true,
+    emptyOutDir: false,
   },
   resolve: {
     extensions: ['.js','.mjs', '.ts', '.jsx', '.tsx', '.json'],
