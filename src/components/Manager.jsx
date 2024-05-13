@@ -112,7 +112,7 @@ const Manager = () => {
 
 
         if (profile) {
-            let req = await fetch("http://localhost:3000/getUserDataDemo", {
+            let req = await fetch("https://pass-keeper-six.vercel.app//getUserDataDemo", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -174,7 +174,7 @@ const Manager = () => {
             // setpasswordArray(prevPasswordArray => [...prevPasswordArray, { ...form, id: uuidv4() }]);
 
             // localStorage.setItem("password", JSON.stringify([...passwordArray, { ...form, id: uuidv4() }]))
-            await fetch('http://localhost:3000/deleteDataDemo', {
+            await fetch('https://pass-keeper-six.vercel.app/deleteDataDemo', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -184,7 +184,7 @@ const Manager = () => {
             });
             // let ar = await a.json()
             // console.error(ar)
-            let req = await fetch('http://localhost:3000/sendDataDemo', {
+            let req = await fetch('https://pass-keeper-six.vercel.app/sendDataDemo', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -235,7 +235,7 @@ const Manager = () => {
             setpasswordArray(passwordArray.filter(i => i.id !== id))
             // localStorage.setItem("password",JSON.stringify(passwordArray.filter(i=>i.id!==id)))
             // saveform({ site: "", username: "", password: "" })
-            let response = await fetch('http://localhost:3000/deleteDataDemo', {
+            let response = await fetch('https://pass-keeper-six.vercel.app/deleteDataDemo', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
