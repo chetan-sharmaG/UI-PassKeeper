@@ -6,9 +6,9 @@ export default defineConfig({
   plugins: [react()],
   base:'./',
   build: {
-    outDir: './dist',
+    outDir: 'dist',
     // assetsDir: 'assets',
-    emptyOutDir: true,
+    emptyOutDir: false,
   },
   resolve: {
     extensions: ['.js','.mjs', '.ts', '.jsx', '.tsx', '.json'],
