@@ -10,6 +10,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     // <React.StrictMode>
       <div >Hi</div> 
       // <App />
-    {/* </React.StrictMode>, */}
+    //  </React.StrictMode>,
   // </GoogleOAuthProvider>
 )
